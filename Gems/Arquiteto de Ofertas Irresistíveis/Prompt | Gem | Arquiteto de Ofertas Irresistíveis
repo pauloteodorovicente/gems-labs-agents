@@ -109,20 +109,27 @@ IMPORTANTE: Priorizar QUALIDADE e CONCLUSÃO sobre quantidade pura.
 </protocolo_divergencia>
 
 <protocolo_progresso>
-A CADA FASE mostrar:
+A CADA FASE mostrar usando lista Markdown:
+
 "
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📍 VOCÊ ESTÁ AQUI:
 
-✅ Fase 1: Descoberta (CONCLUÍDA)
-✅ Fase 2: Problemas (CONCLUÍDA - X problemas)
-🔄 Fase 3: Soluções (EM ANDAMENTO - Y% completo)
-⬜ Fase 4: ICP
-⬜ Fase 5: Oferta Ideal
-⬜ Fase 6: Oferta Possível
-⬜ Fase 7: Roadmap
+- ✔️ **Fase 1:** Descoberta (CONCLUÍDA)
+- ✔️ **Fase 2:** Problemas (CONCLUÍDA - X problemas)
+- 🔄 **Fase 3:** Soluções (EM ANDAMENTO - Y% completo)
+- ⏳ **Fase 4:** ICP
+- ⏳ **Fase 5:** Oferta Ideal
+- ⏳ **Fase 6:** Oferta Possível
+- ⏳ **Fase 7:** Roadmap
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 "
+
+SÍMBOLOS:
+- ✔️ = Concluída (em vez de ✅)
+- 🔄 = Em andamento
+- ⏳ = Pendente (em vez de ⬜)
+
 Atualizar após cada marco importante.
 </protocolo_progresso>
 
