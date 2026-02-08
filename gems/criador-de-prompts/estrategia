@@ -1,0 +1,333 @@
+📋 ESTRATÉGIA DE USO: GERADOR DE PROMPTS CLASSYCO
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 VISÃO GERAL
+
+Este Gem é um consultor especializado em criar prompts de alta performance para qualquer modelo de IA (ChatGPT, Claude, Gemini, Midjourney) e qualquer finalidade.
+
+DIFERENCIAL: Processo estruturado em 5 etapas com transparência total, adaptação ao modelo de IA específico e técnicas avançadas do Manual de Prompts Profissionais Classyco.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔍 QUANDO USAR ESTE GEM?
+
+✅ USE quando:
+- Precisa criar um prompt complexo com comportamento previsível
+- Quer otimizar um prompt existente que não está dando bons resultados
+- Precisa documentar e reutilizar prompts em produção
+- Quer aprender técnicas avançadas de engenharia de prompts
+- Está criando agentes, automações ou produtos com IA
+
+❌ NÃO USE quando:
+- Precisa apenas de uma pergunta rápida e direta para a IA
+- Já tem um prompt funcionando perfeitamente (não mexe em time que está ganhando)
+- Quer apenas "testar uma ideia" sem compromisso com qualidade
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📚 COMO FUNCIONA O PROCESSO?
+
+O Gem segue rigorosamente o fluxo de 5 etapas:
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ETAPA 1: DESCOBERTA (10 min)                                               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ O que acontece:                                                             │
+│ - Gem faz 6 perguntas para entender objetivo, modelo de IA, público, etc.  │
+│ - Identifica categoria (conteúdo/análise/código/visual)                    │
+│ - Detecta nível técnico do usuário (iniciante/intermediário/avançado)      │
+│                                                                             │
+│ Seu papel:                                                                  │
+│ - Responder com máximo de detalhes possível                                │
+│ - Ser específico (ruim: "marketing", bom: "threads do Twitter sobre...")   │
+│ - Se não souber algo, pode deixar em branco que o Gem preenche             │
+│                                                                             │
+│ Resultado:                                                                  │
+│ - Síntese validada do que será criado                                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ETAPA 2: ADAPTAÇÃO AO MODELO (10 min)                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ O que acontece:                                                             │
+│ - Gem aplica otimizações específicas para o modelo escolhido               │
+│ - ChatGPT: Markdown + Few-Shot Learning                                    │
+│ - Claude: XML + Chain of Thought                                           │
+│ - Gemini: Contexto longo + Grounding                                       │
+│ - Midjourney: Parâmetros visuais + descritores                             │
+│                                                                             │
+│ Seu papel:                                                                  │
+│ - Apenas validar se entendeu as otimizações propostas                      │
+│                                                                             │
+│ Resultado:                                                                  │
+│ - Estratégia de estruturação definida                                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ETAPA 3: ESTRUTURAÇÃO (20 min)                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ O que acontece:                                                             │
+│ - Gem constrói o prompt bloco por bloco                                     │
+│ - Explica QUAL técnica está aplicando e POR QUÊ                            │
+│ - Mostra exemplos antes/depois                                             │
+│ - Valida cada bloco antes de avançar                                       │
+│                                                                             │
+│ Seu papel:                                                                  │
+│ - Validar cada bloco (OK / Ajustar)                                        │
+│ - Pedir ajustes se algo não fizer sentido                                  │
+│                                                                             │
+│ Resultado:                                                                  │
+│ - Prompt completo estruturado                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ETAPA 4: REFINAMENTO ITERATIVO (15 min)                                    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ O que acontece:                                                             │
+│ - Gem analisa o prompt com 5 lentes de qualidade                           │
+│ - Identifica problemas (🔴 Crítico / 🟡 Importante / 🟢 Opcional)          │
+│ - Mostra antes/depois de cada melhoria                                     │
+│ - Você decide o que aplicar                                                │
+│                                                                             │
+│ Seu papel:                                                                  │
+│ - Escolher: A) Aplicar tudo / B) Uma por vez / C) Só críticos              │
+│ - Validar cada melhoria aplicada                                           │
+│                                                                             │
+│ Resultado:                                                                  │
+│ - Prompt refinado (nível Bom/Excelente/Elite)                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ETAPA 5: VALIDAÇÃO FINAL (10 min)                                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ O que acontece:                                                             │
+│ - Gem gera 3-5 casos de teste                                              │
+│ - Cria checklist de manutenção futura                                      │
+│ - Entrega 3 documentos finais                                              │
+│                                                                             │
+│ Seu papel:                                                                  │
+│ - Copiar o prompt final                                                    │
+│ - Rodar os casos de teste no modelo de IA                                  │
+│ - Guardar os documentos para reutilização                                  │
+│                                                                             │
+│ Resultado:                                                                  │
+│ - Prompt_Final.txt                                                         │
+│ - Casos_de_Teste.md                                                        │
+│ - Checklist_Manutencao.md                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+
+💡 BOAS PRÁTICAS DE USO
+
+1. NÃO PULE ETAPAS
+   Ruim: "Me dá logo o prompt pronto"
+   Bom: Seguir o processo completo para garantir qualidade
+
+2. SEJA ESPECÍFICO NA ETAPA 1
+   Ruim: "Quero um prompt para marketing"
+   Bom: "Quero gerar threads do Twitter sobre growth hacking para SaaS B2B, 
+         tom provocativo, focado em founders técnicos, usando dados reais"
+
+3. VALIDE CADA BLOCO
+   Ruim: "Tá bom, pode seguir" (sem ler)
+   Bom: Ler cada bloco e validar se reflete o que você pediu
+
+4. TESTE ANTES DE USAR EM PRODUÇÃO
+   Ruim: Copiar prompt e usar diretamente com clientes
+   Bom: Rodar os 3-5 casos de teste primeiro
+
+5. DOCUMENTE VERSÕES
+   Ruim: Sobrescrever prompt sem backup
+   Bom: Salvar como "Prompt_v1.txt", "Prompt_v2.txt" ao iterar
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 CASOS DE USO VALIDADOS
+
+Este Gem já foi usado com sucesso para criar prompts de:
+
+✅ CONTEÚDO & COPYWRITING
+- Threads do Twitter com técnicas de Eugene Schwartz
+- Roteiros de VSL (Video Sales Letter) estruturados
+- E-mails de cold outreach com personalização
+- Artigos de blog otimizados para SEO
+- Scripts de vendas para inside sales
+
+✅ ANÁLISE DE DADOS
+- Relatórios executivos automatizados a partir de CSVs
+- Análise de sentimento em reviews de produtos
+- Dashboards textuais com insights acionáveis
+- Comparações competitivas estruturadas
+
+✅ CÓDIGO & DESENVOLVIMENTO
+- Revisão de código com checklist de segurança
+- Geração de testes unitários automatizados
+- Documentação técnica a partir de código-fonte
+- Debugging assistido com raciocínio passo a passo
+
+✅ CRIAÇÃO VISUAL
+- Prompts para Midjourney com controle fino de estilo
+- Geração de imagens para e-commerce (produtos)
+- Criação de ilustrações conceituais para apresentações
+
+✅ AGENTES & AUTOMAÇÃO
+- Chatbots de atendimento com personalidade definida
+- Assistentes de produtividade (gestão de tarefas)
+- Agentes de pesquisa e síntese (competitive intelligence)
+- Automações N8N/Make com prompts estruturados
+
+═══════════════════════════════════════════════════════════════════════════════
+
+⚠️ LIMITAÇÕES & QUANDO NÃO USAR
+
+LIMITAÇÃO 1: Requer tempo de dedicação
+- Se você tem apenas 5 minutos, use a IA diretamente
+- O processo completo leva 60-90 minutos
+- Valor: Você investe tempo uma vez, reutiliza para sempre
+
+LIMITAÇÃO 2: Não substitui conhecimento do domínio
+- O Gem cria a estrutura técnica do prompt
+- Você ainda precisa saber o que quer alcançar
+- Exemplo: Gem não sabe como fazer marketing, mas te ajuda a estruturar
+  um prompt para uma IA fazer marketing
+
+LIMITAÇÃO 3: Foco em qualidade, não em velocidade
+- Não é para "testar ideias rapidamente"
+- É para criar prompts de produção que funcionam consistentemente
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔧 TROUBLESHOOTING
+
+PROBLEMA: "O Gem está me fazendo muitas perguntas"
+SOLUÇÃO: As perguntas da Etapa 1 são essenciais para evitar prompts genéricos.
+          Quanto mais específicas suas respostas, melhor o resultado final.
+
+PROBLEMA: "Não sei qual modelo de IA escolher"
+SOLUÇÃO: Use esta heurística:
+          - ChatGPT: Melhor custo-benefício, ótimo para conteúdo
+          - Claude: Melhor para raciocínio complexo e código
+          - Gemini: Melhor para tarefas longas e contexto extenso
+          - Midjourney: Específico para imagens
+
+PROBLEMA: "O prompt final ficou muito longo"
+SOLUÇÃO: Prompts longos ≠ prompts ruins. Se cada seção tem propósito claro,
+          o tamanho é justificado. Modelos de IA modernos lidam bem com
+          instruções detalhadas.
+
+PROBLEMA: "Quero ajustar o prompt depois"
+SOLUÇÃO: Use o Checklist de Manutenção gerado na Etapa 5. Ajustes pontuais
+          são ok, mas mudanças grandes (>30%) requerem refazer o processo.
+
+PROBLEMA: "O resultado não ficou como esperado"
+SOLUÇÃO: Rode os Casos de Teste da Etapa 5. Se falharem, volte ao Gem e
+          peça refinamento na Etapa 4. Se passarem, o problema pode estar
+          no input que você está dando ao prompt (não no prompt em si).
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 MÉTRICAS DE SUCESSO
+
+Como saber se o prompt está funcionando bem?
+
+✅ QUALITATIVO:
+- Resultados consistentes em múltiplas execuções
+- Usuários entendem como usar sem explicação adicional
+- Manutenção é fácil (você consegue ajustar sem quebrar)
+
+✅ QUANTITATIVO:
+- Taxa de aprovação do output > 70% (na primeira tentativa)
+- Tempo de geração < 2 minutos
+- Taxa de erro/alucinação < 10%
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 PRÓXIMOS PASSOS APÓS CRIAR O PROMPT
+
+1. TESTE RIGOROSAMENTE
+   □ Rode os 3-5 casos de teste gerados
+   □ Teste casos edge (limites das capacidades)
+   □ Teste com inputs reais (não apenas exemplos)
+
+2. DOCUMENTE O USO
+   □ Salve o Prompt_Final.txt em local seguro
+   □ Compartilhe o Checklist_Manutencao.md com a equipe
+   □ Crie exemplos de uso para novos usuários
+
+3. MONITORE PERFORMANCE
+   □ Acompanhe taxa de aprovação
+   □ Colete feedback dos usuários
+   □ Ajuste quando necessário (volte ao Gem!)
+
+4. VERSIONE E EVOLUA
+   □ Use versionamento semântico (v1.0, v1.1, v2.0)
+   □ Documente o que mudou em cada versão
+   □ Mantenha backups das versões anteriores
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📚 TÉCNICAS APLICADAS PELO GEM
+
+O Gem aplica automaticamente técnicas do Manual de Prompts Profissionais:
+
+1. CHAIN OF THOUGHT (Cadeia de Raciocínio)
+   Quando: Tarefas que requerem raciocínio complexo
+   Exemplo: Análise de dados, debugging, planejamento estratégico
+
+2. FEW-SHOT LEARNING (Aprendizado por Exemplos)
+   Quando: Precisar de consistência de formato/estilo
+   Exemplo: Copywriting, geração de código, formatação de dados
+
+3. ROLE PLAYING (Interpretação de Papel)
+   Quando: Agentes com personalidade definida
+   Exemplo: Chatbots, assistentes especializados
+
+4. PROMPT CHAINING (Encadeamento de Prompts)
+   Quando: Tarefas multi-etapas muito complexas
+   Exemplo: Pesquisa → Análise → Relatório
+
+5. GROUNDING (Ancoragem em Fontes)
+   Quando: Precisar de respostas baseadas em fatos
+   Exemplo: Análise de documentos, pesquisa acadêmica
+
+O Gem SEMPRE explicará qual técnica está aplicando e por quê.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎓 APRENDENDO COM O PROCESSO
+
+Este Gem não apenas cria prompts — ele ENSINA engenharia de prompts.
+
+NÍVEL INICIANTE → INTERMEDIÁRIO:
+Após 3-5 prompts criados com o Gem, você começará a:
+- Reconhecer quando um prompt precisa de Few-Shot Learning
+- Identificar ambiguidades antes de testar
+- Estruturar prompts sozinho com mais confiança
+
+NÍVEL INTERMEDIÁRIO → AVANÇADO:
+Após 10+ prompts criados, você:
+- Saberá adaptar prompts para diferentes modelos sem ajuda
+- Identificará problemas de performance rapidamente
+- Criará variações de prompts de forma iterativa
+
+OBJETIVO FINAL:
+Você usa o Gem para casos complexos, mas consegue criar prompts simples/médios
+sozinho com alta qualidade, aplicando as técnicas aprendidas.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔗 RECURSOS ADICIONAIS
+
+- Manual de Prompts Profissionais Classyco (knowledge base do Gem)
+- Documentação oficial dos modelos:
+  • ChatGPT: platform.openai.com/docs
+  • Claude: docs.anthropic.com
+  • Gemini: ai.google.dev/docs
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Criado por: Classyco
+Última atualização: Fevereiro 2026
+Versão: 2.0 (Universal - Qualquer Prompt para Qualquer Modelo)
